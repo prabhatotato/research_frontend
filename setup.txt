@@ -1,0 +1,74 @@
+# Custom Search Web Application
+
+![Custom Search Logo](your-image-logo.png)
+
+Custom Search is a web application that allows users to perform custom searches using the Google Custom Search API. It provides a simple and user-friendly interface for searching the web and viewing search results.
+
+## Features
+
+- Perform custom web searches with a user-provided query.
+- Display search results in a clean and organized format.
+- Customizable UI with a stylish header, search bar, and footer.
+- Integration of social media icons for easy access to social profiles.
+
+## Getting Started
+
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- [Node.js](https://nodejs.org/) installed on your local machine.
+- A Google Custom Search API key and CX (Custom Search Engine ID). You can obtain these by following Google's documentation.
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```shell
+   git clone https://github.com/yourusername/custom-search-web-app.git
+
+   -----------------------------------------------------------------------------------------------------------------------------------
+1. Navigate to the project directory:
+    cd custom-search-web-app
+2. Install the project dependencies:
+    npm install
+3. Create a .env file in the project root and add your Google API key and CX:
+    GOOGLE_API_KEY=your-api-key
+    GOOGLE_CX=your-cx
+4. Start the development server:
+    npm Start
+5. Open a web browser and go to http://localhost:3000 to access the Custom Search web application.
+
+***********************Configuration***********************
+To customize the appearance and behavior of the web application, you can modify the following files:
+
+styles.css: Adjust styles for the header, search container, search results, footer, and social media icons.
+index.html: Update the header, logo, navigation menu, and other HTML elements.
+script.js: Customize the JavaScript functionality, such as fetching search results and handling user interactions.
+
+************************Usage******************************************
+Enter your search query in the input field and click the "Search" button.
+View the search results displayed below the search bar.
+***************************Deployment*************************************
+To deploy the web application to a production server, follow the deployment guidelines for your hosting provider.
+
+Built With
+HTML, CSS, and JavaScript
+Node.js
+Express.js (for serving the web application)
+Google Custom Search API (for retrieving search results)
+Font Awesome (for social media icons)
+
+Acknowledgments
+Special thanks to the creators of the Google Custom Search API and Font Awesome for their valuable resources.
+Feel free to acknowledge or credit any libraries, tools, or individuals who contributed to your project.
+javascript
+
+NOTE: 
+Replace placeholders such as `your-image-logo.png`, `yourusername`, `your-api-key`, and `your-cx` with your actual project details and content. 
+This README template provides a basic structure that you can expand upon to document your project effectively.
+
+
+

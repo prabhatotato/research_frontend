@@ -1,0 +1,140 @@
+/* Style for the main content */
+.main-content {
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: calc(100vh - 150px); /* Adjust the header and footer height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* Set the background to dark grey */
+    color: #fff; /* Set text color to white */
+}
+
+/* Style for the search container */
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Set input background to white */
+    color: #333; /* Set input text color to dark grey */
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #22b14c; /* Set button background to classy green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the search results */
+#search-results {
+    margin-top: 20px;
+    text-align: left;
+}
+/* Style for the links within the search results */
+#search-results a {
+    color: #22b14c; /* Set the link color to classy green */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Change link color on hover and active */
+#search-results a:hover,
+#search-results a:active {
+    color: #007bff; /* Change link color on hover and active to blue */
+}
+
+/* Style for the footer */
+.footer {
+    text-align: center;
+    background-color: #222; /* Set the background to dark grey */
+    color: #22b14c; /* Set text color to classy green */
+    padding: 10px;
+}
+
+/* Style for the social media icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #22b14c; /* Set icon color to classy green */
+    font-size: 24px; /* Set icon size */
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change icon color on hover to blue */
+}
+
+
+/* Style for the header */
+.header {
+    text-align: left;
+    background-color: #222; /* Set the background to dark grey */
+    color: #22b14c; /* Set text color to classy green */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the logo */
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Style for the navbar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #22b14c; /* Set navbar link color to classy green */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Style for the header title */
+.header-title {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.header-title h1 {
+    margin: 0;
+    font-family: cursive;
+}
+
+/* Change font type for the entire page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Change navbar link color on hover and active */
+.navbar a:hover,
+.navbar a:active {
+    color: #fff; /* Change link color on hover and active to white */
+}
